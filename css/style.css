@@ -1,18 +1,16 @@
 *{
 	box-sizing: border-box; 
-	/* This makes the widths of elements more consistent
-		Full details here https://css-tricks.com/box-sizing/ */
 }
 
 body{
-	margin: 0px; 
+	margin: auto; 
 	font-family: sans-serif;
 }
 
 section{
-	max-width: 100%;
-	margin-left: 50px;
-	margin-right: 50px;
+	max-width: 90%;
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 20px;
 	margin-bottom: 20px;
 }
@@ -34,7 +32,7 @@ margin-left: 40px;
 	padding-top: 20px;
 	border-style: none solid none none;
 	border-width: 15px;
-	border-color: #004c2a;
+	border-color: #004b29;
 }
 
 .sidenav a {
@@ -47,7 +45,7 @@ margin-left: 40px;
 }
 
 .sidenav a:hover{
-	color: #ffd851;
+	color: #ffc600;
 }
 
 .topHeader {
@@ -66,7 +64,7 @@ margin-left: 40px;
 }
 
 .subheader {
-	background-color: #004c2a;
+	background-color: #004b29;
 	color: white; 
  	padding-top: 10px;
 	padding-bottom: 10px;
@@ -79,7 +77,7 @@ margin-left: 40px;
 }
 
 .categoryHeader {
- 	background-color: #004c2a;
+ 	background-color: #004b29;
 	color: white; 
  	padding-top: 10px;
 	padding-bottom: 10px;
@@ -93,7 +91,10 @@ margin-left: 40px;
 
 .img-map1 {
 	width:75%;
-	margin-left: 190px;
+	margin-left: 250px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+    border-radius: 10px;
 }
 
 .categoryHeader p, .categoryHeader h1{
@@ -101,14 +102,13 @@ margin-left: 40px;
 	text-align: left;
 }
 
-/* Simple grid */
 .g-row {
-	width: 100%;
+	width: 80%;
 	overflow: hidden;
 }
 
 .g-row img {
-	width: 100%; /*This makes all images in grids to be the size of their cell */
+	width: 100%; 
 	border-radius: 10px;
 }
 
@@ -116,7 +116,6 @@ margin-left: 40px;
 	width: 30%;
 	float: right;
 	margin: 20px;
-
 }
 
 
@@ -126,6 +125,5 @@ margin-left: 40px;
 }
 
 .padded {
-	padding: 20px; /* I add this to cells to add a little padding*/
-}
+	padding: 20px;
 
