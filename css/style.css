@@ -102,7 +102,6 @@ margin-left: 40px;
 
 /* Simple grid */
 .g-row {
-	margin-left: -100;
 	width: 100%;
 	overflow: hidden;
 }
