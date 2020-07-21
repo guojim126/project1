@@ -7,7 +7,6 @@
 body{
 	margin: 0px; 
 	font-family: sans-serif;
-	background-color: #0D0208;
 }
 
 section{
@@ -30,29 +29,29 @@ margin-left: 40px;
 	z-index: 1;
 	top: 0;
 	left: 0;
-	background-color: #003B00;
+	background-color: #00130a;
 	overflow-x: hidden;
 	padding-top: 20px;
 	border-style: none solid none none;
 	border-width: 15px;
-	border-color: #008F11;
+	border-color: #004c2a;
 }
 
 .sidenav a {
 	padding: 6px 8px 6px 16px;
 	text-decoration: none; 
-	color: white;
+	color: #ba8f00; 
 	font-size: 18px;
 	display: : block;
 
 }
 
 .sidenav a:hover{
-	color: #00FF41;
+	color: #ffd851;
 }
 
 .topHeader {
-	color: #00FF41; 
+	color: #ffc600; 
   	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -67,7 +66,7 @@ margin-left: 40px;
 }
 
 .subheader {
-	background-color: #008F11;
+	background-color: #004c2a;
 	color: white; 
  	padding-top: 10px;
 	padding-bottom: 10px;
@@ -75,11 +74,12 @@ margin-left: 40px;
 }
 
 .subheader p {
+	color: #ffc600;
 	text-align: left;
 }
 
 .categoryHeader {
- 	background-color: #008F11;
+ 	background-color: #004c2a;
 	color: white; 
  	padding-top: 10px;
 	padding-bottom: 10px;
@@ -97,6 +97,7 @@ margin-left: 40px;
 }
 
 .categoryHeader p, .categoryHeader h1{
+	color: #ffc600;
 	text-align: left;
 }
 
